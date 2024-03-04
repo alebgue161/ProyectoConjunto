@@ -5,15 +5,27 @@
 }
 
 .contenedor{
-
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header{
     background-color: black;
+    width: 100%;
 }
 
 nav{
     background-color: orangered;
+}
+
+main{
+    width: 60%;
+}
+
+aside{
+    width: 40%;
 }
 
 nav a{
