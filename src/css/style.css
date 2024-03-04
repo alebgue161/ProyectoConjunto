@@ -1,7 +1,17 @@
-body{
-    background-color: pink;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.contenedor{
-    
+/* Antonio Rodas Pérez: Footer */
+footer {
+    background: #2c3e50;
+    width: 100%;
+    padding: 20px;
+
+    /* Antonio Rodas Pérez: Parte de Flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
