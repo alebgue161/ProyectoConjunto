@@ -26,3 +26,8 @@ footer .rrss a {
 footer p {
     color: white;
 }
+
+/* Antonio Rodas Pérez: Width para controlar el tamaño de las imagenes del footer */
+.ldm-social-footer {
+    width: 20px;
+}
