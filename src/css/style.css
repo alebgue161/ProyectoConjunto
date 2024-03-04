@@ -14,24 +14,47 @@
 header{
     background-color: black;
     width: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header p{
+    font-size: 35px;
 }
 
 nav{
     background-color: orangered;
-}
-
-main{
-    width: 60%;
-}
-
-aside{
-    width: 40%;
+    padding: 5px;
 }
 
 nav a{
     color: white;
     text-decoration: none;
+    display: inline-block;
+    
 }
+
+main{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+}
+
+aside img{
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Antonio Rodas Pérez: Footer */
 footer {
