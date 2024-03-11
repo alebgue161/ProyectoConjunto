@@ -18,7 +18,7 @@ header{
     color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header p{
@@ -27,18 +27,29 @@ header p{
 
 nav{
     background-color: orangered;
-    padding: 5px;
 }
 
 nav a{
     color: white;
     text-decoration: none;
     display: inline-block;
-    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 main{
     width: 70%;
+}
+
+main h2{
+    margin-top: 10px;
 }
 
 aside{
@@ -77,6 +88,8 @@ footer .rrss a {
 
 footer p {
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 /* Antonio Rodas Pérez: Width para controlar el tamaño de las imagenes del footer */
