@@ -9,6 +9,8 @@
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 20%;
+    border-style: solid;
 }
 
 header{
