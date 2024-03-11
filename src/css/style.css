@@ -102,6 +102,42 @@ footer p {
 
 @media (max-width:800px) {
     
+    header{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+header p{
+    padding: 15px;
+}
+
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 6px;
+        align-self: center;
+    }
+
+    nav a{
+        margin: 0;
+    }
+
+    main{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    main p{
+        margin-bottom: 10px;
+    }
+
     aside {
         background-color: orangered;
         color: #fff;
@@ -112,11 +148,11 @@ footer p {
     }
 
     aside section.secuno {
-      width: 48%;
+      width: 50%;
     }
 
     aside section.secdos {
-        width: 48%;
+        width: 50%;
     }
 
     section img{
