@@ -98,3 +98,28 @@ footer p {
 .ldm-social-footer {
     width: 20px;
 }
+
+
+@media (max-width:800px) {
+    
+    aside {
+        background-color: orangered;
+        color: #fff;
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    aside section.secuno {
+      width: 48%;
+    }
+
+    aside section.secdos {
+        width: 48%;
+    }
+
+    section img{
+        width: 100%;
+    }
+}
