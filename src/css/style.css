@@ -159,3 +159,36 @@ header p{
         width: 100%;
     }
 }
+
+
+@media (max-width: 600px) {
+
+    aside{
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside section.secuno{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    aside section.secdos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    aside section img{
+        width: 100%;
+    }
+
+    footer p{
+        order: 1;
+    }
+
+    footer.rrss{
+        order: 0;
+    }
+}
